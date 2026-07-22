@@ -4,6 +4,7 @@ import Services from "@/components/home/Services";
 import WhyDigiWar from "@/components/home/WhyDigiWar";
 import Process from "@/components/home/Process";
 import Portfolio from "@/components/home/Portfolio";
+import Testimonials from "@/components/home/Testimonials";
 export default function Home() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Home() {
         <WhyDigiWar />
         <Process />
         <Portfolio />
+        <Testimonials />
       </main>
     </>
   );
